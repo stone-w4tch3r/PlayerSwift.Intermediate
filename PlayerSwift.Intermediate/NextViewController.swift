@@ -18,7 +18,7 @@ class NextViewController : UIViewController {
         }
         
         private func setupSubviews() {
-            label.text = "Hello, World!"
+            label.text = "here we are"
             button.setTitle("go back", for: .normal)
             button.addTarget(self, action: #selector(onButtonClicked), for: .touchUpInside)
             

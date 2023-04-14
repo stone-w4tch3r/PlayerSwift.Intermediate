@@ -12,18 +12,11 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let window = UIWindow(frame: UIScreen.main.bounds)
-    let navController = UINavigationController(rootViewController: RootViewController())
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window.rootViewController = navController
-        window.makeKeyAndVisible()
-        return true
+        true
     }
-
-
+    
     // MARK: UISceneSession Lifecycle
-
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
     // Called when a new scene session is being created.
